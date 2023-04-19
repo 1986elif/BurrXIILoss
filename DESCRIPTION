@@ -1,0 +1,11 @@
+Package: BurrXIILoss
+Title: calculating the loss and risk in the INVERTED NORMAL LOSS FUNCTİON
+Version: 0.0.0.9000
+Authors@R: 
+    person("elif", "kozan", , "elif.kozanege@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8267-074X"))
+Description: There are many R packages used in the literature in calculating the loss (Ballings et al.,2015; Biecek and Kosinski, 2018).In addition to these, BurrXIILoss package has been prepared for the calculation of the loss function that we have just proposed.An R package has been prepared to provide calculation to the user in calculating the loss and risk in the IBXIILF. With the BurrLoss function and ExpBurrLoss functions included in this package, loss and cost values for the relevant parameters can be easily calculated.These functions are embedded in a package called BurrXIILoss. L_TBXII (y,τ)=K{1-((y/τ)^(c_L-1) ((〖α_L〗^(c_L )+τ^(c_L ))/(〖α_L〗^(c_L )+y^(c_L ) ))^((〖α_L〗^(c_L ).c_L-〖α_L〗^(c_L )-τ^(c_L ))/(τ^(c_L ).c_L )+1) )}.Here, τ is the target value, α_L is the scale parameter for the loss function, c_L is the shape parameter for the loss function and K is the maximum loss.BurrXII (α,c,k) distribution : f(y)=ck/α (y/α)^(c-1) (1+(y/α)^c )^(-(k+1))
+License:GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
